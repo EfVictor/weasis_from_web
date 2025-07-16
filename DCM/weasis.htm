@@ -1,0 +1,24 @@
+<HTML>
+<HEAD>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf8">
+</HEAD>
+<body>            
+	<h1>Открытие Weasis из браузера</h1>
+		<h2>Выберите локальный файл:</h2>
+		<input type="file" onchange="OpenEXELocal(this)"><br><br>
+
+		<input type="text" size="45" id="argument" name= "display" value="https://nroduit.github.io/samples/us-palette.dcm"></input>
+		<button type="submit"  onclick="OpenEXEUrl();">Открыть Weasis c dicom данному URL</button><br><br><br>
+
+		<input type="text" size="45" id="argument2" name= "display2" value="ozp00SjY2xG"></input>
+		<button type="submit"  onclick="OpenEXEOr();">Открыть Weasis c dicom  взятого из Orthanc WEB Server</button><br><br><br>
+
+		<input type="text" size="45" id="argument3" name= "display3" value="055bfbaf-2aae936c-82ed5a9a-9267f8b7-416a4000"></input>
+		<button type="submit"  onclick="OpenEXEOrthanc();">Скачать и открыть instance файл</button><br><br><br>
+
+		<input type="text" size="45" id="argument4" name= "display4" value="6c65289b-db2fcb71-7eaf73f4-8e12470c-a4d6d7cf"></input>
+		<button type="submit"  onclick="OpenEXEOrthancStudies();">Скачать и открыть studies файл</button><br><br>		
+</body>
+</html>
+<script src="config.js"></script> 
+<script src="weasis.js"></script>

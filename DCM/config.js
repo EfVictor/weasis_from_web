@@ -1,0 +1,1 @@
+var path="C:/Users/user1/Downloads/images/" //Path to the local folder with files without Cyrillic in the path

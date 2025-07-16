@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\weasisDCM]
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\weasisDCM\shell]
+[HKEY_CLASSES_ROOT\weasisDCM\shell\open]
+[HKEY_CLASSES_ROOT\weasisDCM\shell\open\command] 
+@="\"C:\\Program Files\\Weasis\\Weasis.exe\" \"%1\""

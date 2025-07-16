@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\weasisZIP]
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\weasisZIP\shell]
+[HKEY_CLASSES_ROOT\weasisZIP\shell\open]
+[HKEY_CLASSES_ROOT\weasisZIP\shell\open\command] 
+@="\"C:\\Users\\user1\\Downloads\\openDicomStudiesNode.bat\" %1"
