@@ -4,6 +4,7 @@ Open the dicom-snapshot with Weasis exe from the website on your PC.
 A project for running Weasis and viewing a photo transferred to it. It is implemented in 2 modes:  
 * viewing a single photo  
 * viewing a group of photos. In this case, Weasis can open a group of photos only if they are on the server, and not locally as in the previous mode. To solve this problem, a simple Node.js server was created.
+--------
 
 ### Project structure:
 
